@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    color: #1b1b1b;
+}
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #dde2d1;
+}
+
+form{
+    width: 440px;
+    background-color: #fff;
+    box-shadow: 0 0 .5rem black;
+    padding: 44px;
+    border-radius: 10px ;
+    margin-bottom: 20px;
+    
+}
+
+.logo{
+    margin-bottom: 15px;
+}
+
+form h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.formgroup{
+    margin: 0 0 16px;
+}
+
+form input{
+    padding: 6px 10px 6px 0;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000b3;
+    width: 100%;
+    font-size: .9rem;
+}
+
+font p{
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+form a{
+    color: #0067b8;
+    text-decoration: none;
+}
+
+form a:hover{
+    color: #000000b3;
+    text-decoration: underline;
+}
+
+form :is(.first) > a{ font-size: 13px;}
+form .first > a span{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000b3;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 0.2em;
+}
+
+form button{
+    display: block;
+    margin-left: auto;
+    width: 100px;
+    height: 32px;
+    padding: 4px 12px;
+    font-size: 15px;
+    background-color: #0067b8;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+form button:hover{background-color: #004b85;}
+form button:active{ transform: scale(.97);}
+
+.formcontainer{
+    overflow-x: hidden ;
+}
+
+.bottom{
+    width: 440px;
+    background-color: #fff;
+    box-shadow: 0 0 .5rem black;
+    padding: 3px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 75px;
+    height: 50px;
+}
+
+.bottom img{
+    width: 32px;
+    height: 32px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+
+.bottom:hover{
+    background-color:  #dde2d1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
